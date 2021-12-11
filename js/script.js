@@ -27,7 +27,7 @@ function loader(){
 }
 
 function fadeOut(){
-  setInterval(loader, 1500);
+  setInterval(loader, 2000);
 }
 
 window.onload = fadeOut();

@@ -411,7 +411,20 @@ header .navbar a:hover{
   object-fit: cover;
   border-radius: .5rem;
 }
-
+.order .row .content{
+  flex: 1 1 40rem;
+  padding: 1rem;
+}
+.order .row .content h3{
+  font-size: 2.5rem;
+  color:rgb(105, 105, 105);
+  padding:.5rem 0;
+}
+.order .row .content p{
+  font-size: 1.5rem;
+  color:rgb(105, 105, 105);
+  padding:.5rem 0;
+}
 .order .row form{
   flex:1 1 50rem;
   padding:1rem;
@@ -489,7 +502,7 @@ header .navbar a:hover{
   top:calc(100% - 12rem)
 }
 
-.loader-container{
+/* .loader-container{
   position: fixed;
   top:0; left:0;
   z-index: 10000;
@@ -505,7 +518,7 @@ header .navbar a:hover{
   top:-120%;
 }
 
-
+ */
 
 
 
