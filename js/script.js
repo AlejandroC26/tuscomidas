@@ -2,11 +2,9 @@ let SameSite = "None";
 let menu = document.querySelector('#menu-bar');
 let navbar = document.querySelector('.navbar');
 
-menu.onclick = () =>{
-
+/* menu.onclick = () =>{
   menu.classList.toggle('fa-times');
   navbar.classList.toggle('active');
-
 }
 
 window.onscroll = () =>{
@@ -20,7 +18,7 @@ window.onscroll = () =>{
     document.querySelector('#scroll-top').classList.remove('active');
   }
 
-}
+} */
 
 function loader(){
   document.querySelector('.loader-container').classList.add('fade-out');
